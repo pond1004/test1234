@@ -1,0 +1,38 @@
+[
+    {
+   
+    "pdName" : "นิตยสาร Beauty+ ปกเจบี",
+    "pdPrice" : 550,
+    "pdPic":"./assets/img/p7.jpg"
+    },
+    {
+  
+    "pdName" : "นิตยสาร ELLE ปกแจ๊คสัน",
+    "pdPrice" : 750,
+    "pdPic": "./assets/img/p8.jpg"
+    },
+    {
+  
+    "pdName" : "นิตยสาร Hamburger ปกแบมแบม & แจ๊คสัน",
+    "pdPrice" : 199,
+    "pdPic": "./assets/img/p9.jpg"
+    },
+    {
+    
+        "pdName" : "นิตยสาร ELLEMEN ปกแบมแบม",
+        "pdPrice" : 120,
+        "pdPic": "./assets/img/p10.jpg"
+        },
+        {
+   
+        "pdName" : "นิตยสาร สุดสัปดาห์ ปกแบมแบม",
+        "pdPrice" : 90,
+        "pdPic": "./assets/img/p11.jpg"
+        },
+        {
+            
+            "pdName" : "Hamburger ปกแบมแบม",
+            "pdPrice" : 120,
+            "pdPic": "./assets/img/p12.jpg"
+            }
+    ]

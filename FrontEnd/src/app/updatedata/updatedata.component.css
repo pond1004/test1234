@@ -1,0 +1,10 @@
+.container{
+    
+    background-color:#88e28b;
+    font-family:'Trebuchet MS';
+    color:#000;
+    width: 100%;
+}
+.col{
+    position: center;
+}

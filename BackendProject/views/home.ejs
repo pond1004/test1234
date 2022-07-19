@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <!-- BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<style>
+    .flip-card {
+    background-color: transparent;
+    width: 499px;
+    height: 499px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #C7F2E1;
+    color: black;
+    text-align: center;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+</style>
+<body>
+    <div class="container p-5">
+        <div class="card">
+            <div class="card-body">
+                    <h1>Welcome, <%= name %></h1>
+                    <a href="/logout" class="btn btn-danger">Logout</a>
+                  
+                    <br>
+                     <br><img src="./got1.jpg"width="1000px"height="150px">
+
+                     <table  ALIGN="Center" bodercolor="">
+                        <tr>
+                          <td>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="a6.jpg" alt="Avatar"width="499px"height="499px" >
+                          </div>
+                          <div class="flip-card-back">
+                            <div class="flip-card-front"><br><br><br><br><br><br><br><br>
+                                <font Face="SanamDeklenchaya Regular"  size="5 Points"> <p>Mark (มาร์ค)<br>
+                                    ชื่อจริง : มาร์ค ต้วน อี้ เอิน (Mark Yi En Tuan)<br> ชื่ออังกฤษคือ มาร์ค ต้วน (Mark Tuan)<br>
+                                    วันเกิด : 4 กันยายน ปี 1993<br>
+                                    ตำแหน่ง : แร็ปเปอร์หลัก, นักเต้นนำ, ภาพลักษณ์​ของวง</p></font>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="a4.jpg" alt="Avatar" width="499px"height="499px">
+                          </div>
+                          <div class="flip-card-back">
+                            <div class="flip-card-front"><br><br><br><br><br><br><br><br>
+                                <font Face="SanamDeklenchaya Regular"  size="5 Points"> <p>JB (เจบี)<br>
+                                    ชื่อจริง : อิม แจบอม (Im Jae Bum) <br>
+                                    วันเกิด : 6 มกราคม ปี1994<br>
+                                    ตำแหน่ง : หัวหน้าวง,  นักร้องเสียงหลัก, นักเต้นนำ</p></font>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                   </tr>
+
+                   <tr>
+                    <td>
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img src="a3.jpg" alt="Avatar" width="499px"height="499px">
+                              </div>
+                              <div class="flip-card-back">
+                                <div class="flip-card-front"><br><br><br><br><br><br><br><br>
+                                    <font Face="SanamDeklenchaya Regular"  size="5 Points"> <p>Jackson (แจ็คสัน)<br>
+                                        ชื่อจริง : หวัง เจียเอ่อร์ (Wang Ka Yee)<br>
+                                         ชื่ออังกฤษคือ แจ็คสัน หวัง (Jackson Wang)<br>
+                                        วันเกิด : 28 มีนาคม ปี 1994<br>
+                                        ตำแหน่ง : แร็ปเปอร์นำ, นักเต้นนำ</p></font>
+                                </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img src="a5.jpg" alt="Avatar" width="499px"height="499px">
+                              </div>
+                              <div class="flip-card-back">
+                                <div class="flip-card-front"><br><br><br><br><br><br><br><br>
+                                    <font Face="SanamDeklenchaya Regular"  size="5 Points"> <p>Jinyoung (จินยอง)<br>
+                                        ชื่อจริง : ปาร์ค จินยอง (Park Jin Young)<br>
+                                        วันเกิด : 22 กันยายน ปี 1994<br>
+                                        ตำแหน่ง : นักร้องนำ, นักเต้นนำ</p></font>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                      <div class="flip-card-front">
+                                        <img src="a1.jpg" alt="Avatar" width="499px"height="499px">
+                                      </div>
+                                      <div class="flip-card-back">
+                                        <div class="flip-card-front"><br><br><br><br><br><br><br><br>
+                                            <font Face="SanamDeklenchaya Regular"  size="5 Points"> <p>Youngjae (ยองแจ)<br>
+                                            ชื่อจริง : ชเว ยอง แจ (Choi Young Jae) <br>
+                                            วันเกิด : 17 กันยายน ปี 1996<br>
+                                            ตำแหน่ง : นักร้องเสียงหลัก</p></font>
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                      <div class="flip-card-front">
+                                        <img src="a2.jpg" alt="Avatar" width="499px"height="499px">
+                                      </div>
+                                      <div class="flip-card-back">
+                                        <div class="flip-card-front"><br><br><br><br><br><br><br><br>
+                                            <font Face="SanamDeklenchaya Regular"  size="5 Points"> <p>Bambam (แบมแบม)<br>
+                                                ชื่อจริง : กันต์พิมุกต์ ภูวกุล <br>
+                                                วันเกิด : 2 พฤษภาคม ปี 1997<br>
+                                                ตำแหน่ง : แร็ปเปอร์หลัก, นักเต้นหลัก, นักร้องเสริม</p></font>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+        
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="flip-card">
+                                            <div class="flip-card-inner">
+                                              <div class="flip-card-front">
+                                                <img src="a7.jpg" alt="Avatar" width="499px"height="499px">
+                                              </div>
+                                              <div class="flip-card-back">
+                                                <div class="flip-card-front"><br><br><br><br><br><br><br><br>
+                                                    <font Face="SanamDeklenchaya Regular"  size="5 Points"> <p>Yugyeom (ยูคยอม)<br>
+                                                        ชื่อจริง : คิม ยูคยอม (Kim Yu Gyeom)<br>
+                                                        วันเกิด : 17 พฤศจิกายน ปี 1997<br>
+                                                        ตำแหน่ง : นักเต้นหลัก, นักร้องนำ, น้องเล็ก</p></font>
+                                                </div>
+                                                
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </td>
+                                        <td>
+                                          <div class="flip-card">
+                                            <div class="flip-card-inner">
+                                              <div class="flip-card-front">
+                                                <img src="a8.jpg" alt="Avatar" width="499px"height="499px">
+                                              </div>
+                                              <div class="flip-card-back">
+                                                <div class="flip-card-front"><br><br><br><br><br><br><br><br>
+                                                    <font Face="SanamDeklenchaya Regular"  size="8 Points"> <p>COME & GET IT
+                                                        <br>GOT7
+                                                    </p></font>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                
+                                        </td>
+                                        </tr>
+                   </table>
+                   
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

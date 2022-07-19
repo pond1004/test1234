@@ -1,0 +1,96 @@
+<div class="container">
+ 
+ 
+
+<div class="row"><br><br>
+    <div class="container"ALIGN="Center">
+        <div id="product-main-img" *ngFor = "let product of productslist" >
+            <div class="product-preview">
+                <br><br><br><br><br><br> <img  [src]=" product.productPic" style="width:300px;height:400px; "/>
+            </div>
+    <br>
+    
+            <div class="col" ALIGN="Center">
+                <div class="product-details" >
+                    <font Face="SanamDeklenchaya Regular" color ="#000000" size="4.5 Points">
+                        {{product.productName}}
+                     </font>
+                    
+                        <div class="product-rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                      
+                    
+                    <div><span class="product-available">In Stock</span><br>
+                        <font Face="SanamDeklenchaya Regular" color ="#000000" size="4.5 Points"> ราคา {{product.productPrice}}</font>
+                        
+                    </div>
+                   
+                   
+    
+                    <div class="add-to-cart">
+                       
+                        <div class="btn-group" style="margin-left: 25px; margin-top: 15px">
+                        <button class="add-to-cart-btn"   id="product" ><i class="fa fa-shopping-cart"></i> สั่งซื้อสินค้า</button>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+                
+            <br>
+           
+        </div>
+    
+    </div>
+    <!--
+    <div class="col-6"ALIGN="Center">
+        <div id="product-main-img" *ngFor = "let product of productslist" >
+            <div class="product-preview">
+                <br><br><br><br><br><br> <img  [src]=" product.productPic" style="width:300px;height:400px; "/>
+            </div>
+    <br>
+    
+            <div class="col">
+                <div class="product-details" >
+                    <font Face="SanamDeklenchaya Regular" color ="#000000" size="4.5 Points">
+                        {{product.pdName}}
+                     </font>
+                    
+                        <div class="product-rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                      
+                    
+                    <div><span class="product-available">In Stock</span><br>
+                        <font Face="SanamDeklenchaya Regular" color ="#000000" size="4.5 Points"> ราคา {{product.productPrice}}</font>
+                        
+                    </div>
+                   
+                   
+    
+                    <div class="add-to-cart">
+                       
+                        <div class="btn-group" style="margin-left: 25px; margin-top: 15px">
+                        <button class="add-to-cart-btn"   id="product" ><i class="fa fa-shopping-cart"></i> สั่งซื้อสินค้า</button>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+                
+            <br>
+           
+        </div>
+    
+  </div>-->

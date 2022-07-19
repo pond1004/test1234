@@ -1,0 +1,76 @@
+[
+    {
+    "productID" : 100,
+    "productName" : "นิตยสาร MAPS ปกยองแจ",
+    "productPrice" : 390,
+    "productPic":"./assets/img/p1.jpg"
+    },
+    {
+    "productID" : 200,
+    "productName" : "นิตยสาร ESQUIRE 2021.06",
+    "productPrice" : 370,
+    "productPic": "./assets/img/p2.jpg"
+    },
+    {
+    "productID" : 300,
+    "productName" : "นิตยสาร Allure Korea ปกแบมแบม",
+    "productPrice" : 297,
+    "productPic": "./assets/img/p3.jpg"
+    },
+    {
+        "productID" : 400,
+        "productName" : "นิตยสาร GQ ปกเจบี",
+        "productPrice" : 340,
+        "productPic": "./assets/img/p4.jpg"
+        },
+        {
+        "productID" : 500,
+        "productName" : "นิตยสาร MAPS ปกยองแจ",
+        "productPrice" : 400,
+        "productPic": "./assets/img/p5.jpg"
+        },
+        {
+            "productID" : 600,
+            "productName" : "T-shirt ยองแจ",
+            "productPrice" : 950,
+            "productPic": "./assets/img/p6.jpg"
+            }
+                      ,
+                {
+                    "productID" : 700,
+                    "productName" : "นิตยสาร Beauty+ ปกเจบี",
+                    "productPrice": 550,
+                    "productPic":"./assets/img/p7.jpg"
+                },
+                {
+              
+                    "productName" : "นิตยสาร ELLE ปกแจ๊คสัน",
+                    "productPrice" : 750,
+                    "productPic": "./assets/img/p8.jpg"
+                },
+                {
+              
+                    "productName" : "นิตยสาร Hamburger ปกแบมแบม & แจ๊คสัน",
+                    "productPrice" : 199,
+                    "productPic": "./assets/img/p9.jpg"
+                },
+                {
+                
+                    "productName" : "นิตยสาร ELLEMEN ปกแบมแบม",
+                    "productPrice" : 120,
+                    "productPic": "./assets/img/p10.jpg"
+                    },
+                    {
+               
+                        "productName" : "นิตยสาร สุดสัปดาห์ ปกแบมแบม",
+                        "productPrice" : 90,
+                        "productPic": "./assets/img/p11.jpg"
+                    },
+                    {
+                        
+                        "productName" : "Hamburger ปกแบมแบม",
+                        "productPrice" : 120,
+                        "productPic": "./assets/img/p12.jpg"
+                        }
+                
+ ]

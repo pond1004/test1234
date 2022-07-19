@@ -1,0 +1,38 @@
+<div class="page-wrapper bg-green p-t-180 p-b-100 font-robo">
+    <div class="wrapper wrapper--w960">
+        <div class="card card-2">
+            <div class="card-heading"></div>
+            <div class="card-body">
+                <form method="POST">
+                    <img src="/assets/img/LogoP.png" width="250px"height="250px">
+                    <div class="input-group">
+                        <input class="input--style-2" type="text" placeholder="Name" name="cus_name" pattern="(([\u0E01-\u0E4C]+)(\s+)([\u0E01-\u0E4C]+))||(([A-Za-z]+)(\s+)([A-Za-z]+))">
+                    </div>
+                    <div class="input-group">
+                        <input class="input--style-2" type="text" placeholder="Tel" name="cus_tel" pattern="[0-9]{10}">
+                    </div>
+                    <div class="input-group">
+                        <input class="input--style-2" type="text" placeholder="address" name="cus_address">    
+                    </div>
+                    <div class="input-group">
+                        <input class="input--style-2" type="email" placeholder="Email" name="cus_email">
+                    </div>
+                    <div class="row-row-space">
+                            <div class="input-group">
+                                <input class="input--style-2" type="text" placeholder="Username"name="cus_username">
+                            </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="input-group">
+                            <input class="input--style-2" id="password-field" name="cus_password" type="password" class="form-control" >
+                        </div>
+                    </div>
+                    <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                    <div class="p-t-30">
+                        <button class="btn btn--radius btn--green" type="submit">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
